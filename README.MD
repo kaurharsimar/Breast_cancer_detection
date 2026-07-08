@@ -342,7 +342,7 @@ The project generates:
 
 # 👨‍💻 Author
 
-**Aayush Sharma**
+**Harsimar Kaur**
 
 **B.Tech - Artificial Intelligence & Machine Learning**
 
