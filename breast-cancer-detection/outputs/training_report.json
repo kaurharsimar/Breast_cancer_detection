@@ -1,0 +1,75 @@
+{
+  "best_model": "SVM (RBF)",
+  "cv_results": {
+    "Logistic Regression": {
+      "mean_cv_accuracy": 0.9714285714285715,
+      "std_cv_accuracy": 0.011206636293610512
+    },
+    "SVM (RBF)": {
+      "mean_cv_accuracy": 0.9758241758241759,
+      "std_cv_accuracy": 0.012815278889769889
+    },
+    "Random Forest": {
+      "mean_cv_accuracy": 0.9582417582417584,
+      "std_cv_accuracy": 0.03502720318793237
+    },
+    "Gradient Boosting": {
+      "mean_cv_accuracy": 0.953846153846154,
+      "std_cv_accuracy": 0.037684457581279654
+    },
+    "K-Nearest Neighbors": {
+      "mean_cv_accuracy": 0.9692307692307693,
+      "std_cv_accuracy": 0.023466106048420463
+    }
+  },
+  "test_metrics": {
+    "accuracy": 0.9736842105263158,
+    "precision": 1.0,
+    "recall": 0.9285714285714286,
+    "f1_score": 0.9629629629629629,
+    "roc_auc": 0.9947089947089947
+  },
+  "confusion_matrix": [
+    [
+      72,
+      0
+    ],
+    [
+      3,
+      39
+    ]
+  ],
+  "n_features": 30,
+  "feature_names": [
+    "radius_mean",
+    "texture_mean",
+    "perimeter_mean",
+    "area_mean",
+    "smoothness_mean",
+    "compactness_mean",
+    "concavity_mean",
+    "concave points_mean",
+    "symmetry_mean",
+    "fractal_dimension_mean",
+    "radius_se",
+    "texture_se",
+    "perimeter_se",
+    "area_se",
+    "smoothness_se",
+    "compactness_se",
+    "concavity_se",
+    "concave points_se",
+    "symmetry_se",
+    "fractal_dimension_se",
+    "radius_worst",
+    "texture_worst",
+    "perimeter_worst",
+    "area_worst",
+    "smoothness_worst",
+    "compactness_worst",
+    "concavity_worst",
+    "concave points_worst",
+    "symmetry_worst",
+    "fractal_dimension_worst"
+  ]
+}
